@@ -22,7 +22,7 @@ const projects = [
         name1 : 'Shopping',
         name2 : 'Cart',
         modalTitle : 'Shopping Cart',
-        modalDescription : 'Developed shopping cart site using react.js',
+        modalDescription : 'Developed shopping cart site using React.js and Redux',
         link : 'https://shoppingcart-sudhanva.netlify.app/',
         className : 'project__link shoppingCart'
     },

@@ -6,7 +6,7 @@ const Info = () => {
 
   useEffect(() => {
     const calculateExperienceMonths = () => {
-      const joiningDate = new Date('2022-08-01');
+      const joiningDate = new Date('2022-06-27');
       const currentDate = new Date();
       const diffMonths = (currentDate.getFullYear() - joiningDate.getFullYear()) * 12 + (currentDate.getMonth() - joiningDate.getMonth());
       setExperienceMonths(diffMonths);

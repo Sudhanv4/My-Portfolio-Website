@@ -5,8 +5,12 @@ const frontend1 = [
     },
     
     {
-        name : 'Javascript',
+        name : 'JavaScript',
         icon : 'skillIcon devicon-javascript-plain'
+    },
+    {
+        name : 'TypeScript',
+        icon : 'skillIcon devicon-typescript-plain'
     },
     {
         name : 'React.js',
@@ -27,6 +31,10 @@ const frontend2 = [
         icon : 'skillIcon devicon-redux-original'
     },
     {
+        name : 'Next.js',
+        icon : 'skillIcon devicon-nextjs-original'
+    },
+    {
         name : 'MUI',
         icon : 'skillIcon devicon-materialui-plain'
     },
@@ -40,11 +48,11 @@ const frontend2 = [
 
 const backend1 = [
     {
-        name : 'Node',
+        name : 'Node.js',
         icon : 'skillIcon devicon-nodejs-plain'
     },
     {
-        name : 'Express',
+        name : 'Express.js',
         icon : 'skillIcon devicon-express-original'
     },
     {
