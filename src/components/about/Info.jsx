@@ -6,7 +6,7 @@ const Info = () => {
 
   useEffect(() => {
     const calculateExperienceMonths = () => {
-      const joiningDate = new Date('2022-06-27');
+      const joiningDate = new Date('2022-01-06');
       const currentDate = new Date();
       const diffMonths = (currentDate.getFullYear() - joiningDate.getFullYear()) * 12 + (currentDate.getMonth() - joiningDate.getMonth());
       setExperienceMonths(diffMonths);
@@ -26,11 +26,11 @@ const Info = () => {
             <h3 className="about__title">Completed</h3>
             <span className="about__subtitle">15 + Projects</span>
         </div>
-        <div className="about__box">
+        {/* <div className="about__box">
             <i className='bx bx-support about__icon'></i>
             <h3 className="about__title">Support</h3>
             <span className="about__subtitle">Online 24/7</span>
-        </div>
+        </div> */}
     </div>
   )
 }
