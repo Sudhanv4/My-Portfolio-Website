@@ -15,7 +15,7 @@ const Info = () => {
   }, []);
 
   return (
-    <div className="about__info grid">
+    <div className="about__info">
         <div className="about__box">
             <i className='bx bx-award about__icon'></i>
             <h3 className="about__title">Experience</h3>
