@@ -3,7 +3,7 @@ import './qualification.css'
 
 const Qualification = () => {
 
-    const [qual, setQual] = useState(0)
+    const [qual, setQual] = useState(1)
 
     return (
         <section className="qualification section"  id='experience'>
