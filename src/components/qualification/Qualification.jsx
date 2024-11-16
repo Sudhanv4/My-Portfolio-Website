@@ -81,7 +81,6 @@ const Qualification = () => {
                     <div className={qual===1?"qualification__content qualification__content-active":"qualification__content"}>
                         
                     <div className="qualification__data">
-                            <div></div>
 
                             <div>
                                 <h3 className="qualification__title">Software Engineer 2</h3>
@@ -95,6 +94,8 @@ const Qualification = () => {
                                 <span className="qualification__rounder"></span>
                                 <span className="qualification__line"></span>
                             </div>
+                            <div></div>
+
                         </div>
                         <div className="qualification__data">
                             <div></div>
