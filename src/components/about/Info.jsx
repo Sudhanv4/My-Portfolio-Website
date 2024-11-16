@@ -10,7 +10,7 @@ const Info = () => {
       const joiningDate = new Date('2022-01-06');
       const currentDate = new Date();
       const diffMonths = (currentDate.getFullYear() - joiningDate.getFullYear()) * 12 + (currentDate.getMonth() - joiningDate.getMonth());
-      setExperienceYears((diffMonths/12).toFixed(0));
+      setExperienceYears(Math.floor(diffMonths / 12));
       setExperienceMonths(diffMonths%12)
     };
     calculateExperienceYears();
