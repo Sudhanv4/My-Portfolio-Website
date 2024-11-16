@@ -80,14 +80,8 @@ const Qualification = () => {
 
                     <div className={qual===1?"qualification__content qualification__content-active":"qualification__content"}>
                         
-
-                        <div className="qualification__data">
+                    <div className="qualification__data">
                             <div></div>
-
-                            <div>
-                                <span className="qualification__rounder"></span>
-                                <span className="qualification__line"></span>
-                            </div>
 
                             <div>
                                 <h3 className="qualification__title">Software Engineer 2</h3>
@@ -97,6 +91,19 @@ const Qualification = () => {
                                     &nbsp;Aug 2024 - Present
                                 </div>
                             </div>
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
+                        </div>
+                        <div className="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
+
                             <div>
                                 <h3 className="qualification__title">Software Engineer</h3>
                                 <span className="qualification__subtitle">Persistent Systems Ltd.</span>
